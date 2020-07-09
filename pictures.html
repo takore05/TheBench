@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+  <title>JS Bin</title>
+</head>
+<style>
+  img {
+    display: relative;
+    width: 20em;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 4.5em;
+    font-family: 'Crimson Text', serif;
+    transition: font-size 0.25s linear;
+}
+
+.text :hover{
+  font-size: 1.1em;
+  transition: 0.25s;
+}
+
+.flex{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.flex2{
+  display:flex;
+  flex-flow: column wrap;
+  align-items:center;
+}
+
+.inquiries{
+  font-size: 3em;
+  font-family: 'Crimson Text', serif;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-left:0px;
+}
+
+</style>
+
+ <div class="flex">
+
+   <div class="thumbnail">
+         <a href="https://www.eventbrite.com/e/postponed-rescheduled-details-to-come-tickets-98429672801" target="_blank" > <img src="https://docs.google.com/drawings/d/e/2PACX-1vR_CEq7jY84O-cqYFmk4vDHpU7lTiKFXpf38gJlg2GyLA_OHZMYwhOteCJ2erz2u3FoVNvFmlntVGe7/pub?w=252&amp;h=250" alt="Book Tickets"> 
+          <div class="text">
+              <p>Book Tickets</p>
+          </div>
+          </a>
+      </div>
+   
+      <div class="thumbnail">
+        <a href="https://www.eventbrite.com/e/postponed-rescheduled-details-to-come-tickets-98429672801" target = "_blank">
+           <img src="https://docs.google.com/drawings/d/e/2PACX-1vSFq5XChmYS9y5mhEG411SjIeyFDGvt0S_fic6qczZ04427YfbkoR0pr5iWwKCFGXDGxEpH9DAp4A6k/pub?w=252&amp;h=254"> 
+          <div class="text">
+              <p>University Shows & Workshops</p>
+          </div>
+          </a>
+      </div>
+   
+
+  </div>
+
+
+
+</body>
+</html>
